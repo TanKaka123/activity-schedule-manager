@@ -2,10 +2,8 @@
 export const formatDate = (input: Date | string) => {
   const date = typeof input === 'string' ? new Date(input) : input;
 
-  const options: Intl.DateTimeFormatOptions = {
-    weekday: 'short', // "Mon"
-    day: 'numeric',   // "14"
-  };
+  const weekday = date.toLocaleDateString('en-US', { weekday: 'short' }); // Mon
+  const day = date.getDate(); // 24
 
-  return date.toLocaleDateString('en-US', options).replace(',', ''); // "Mon 14"
+  return `${weekday} ${day}`;
 };

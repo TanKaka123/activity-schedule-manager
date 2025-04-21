@@ -9,7 +9,7 @@ export function applySecurity(app: Application) {
 
   // Allow CORS from all origins
   app.use(cors({
-    origin: 'https://activity-schedule-manager.vercel.app', 
+    origin: 'http://localhost:5173', 
     credentials: true,     
   }));
 
