@@ -1,0 +1,19 @@
+{
+ 
+    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 22,
+    "editor.tabSize": 2,
+    "editor.cursorBlinking": "smooth",
+    "terminal.integrated.fontFamily": "'Fira Code', monospace",
+    "window.zoomLevel": 0,
+    "workbench.colorCustomizations": {
+      "titleBar.activeBackground": "#046aaf",
+      "titleBar.inactiveBackground": "#046aaf",
+      "activityBar.background": "#046aaf",
+      "sideBar.background": "#000000",
+      "statusBar.background": "#046aaf",
+    }
+  }
+  

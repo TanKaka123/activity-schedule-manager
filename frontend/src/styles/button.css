@@ -1,0 +1,209 @@
+.status-btn {
+  padding: 0px;
+  background: transparent;
+  cursor: pointer;
+  color: #6b7280;
+  padding: 7px 7px 6px 7px;
+  border: #d1d1d1 solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+
+.status-btn.WFH-active {
+  background-color: #fe2f79;
+  border: none;
+}
+
+.status-btn.WAO-active {
+  background-color: #005fe2;
+  border: none;
+}
+
+.status-btn.OFF-active {
+  background-color: #989b9c;
+  border: none;
+}
+
+.status-btn:focus,
+.status-btn:active,
+.status-btn:hover {
+  border-color: #d1d1d1;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.view-toggle-btn {
+  border: none;
+  background: #ffffff;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border-width: 0px;
+  border-top-width: 3px;
+  border-style: solid;
+  border-color: transparent;
+}
+
+.view-toggle-btn.active {
+  background: #fff3e2;
+  border-color: #fedeae;
+  border-radius: 0px;
+}
+
+.view-toggle-btn:focus,
+.view-toggle-btn:active,
+.view-toggle-btn:hover {
+  border-color: #fedeae;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+.today-btn {
+  background-color: white;
+  border: 1px solid #e1e5ed;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  margin-right: 12px;
+  border: none;
+}
+
+.today-btn:hover {
+  background-color: #f0f0f0;
+}
+
+.nav-btn {
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 100%;
+  cursor: pointer;
+  padding: 0px;
+  border: none;
+}
+
+.nav-btn:hover {
+  background-color: #f0f0f0;
+}
+
+.notify-btn {
+  background-color: #8e9eff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 60px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  color: white;
+}
+
+.repeat-schedule-btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.repeat-schedule-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: transparent;
+  border: none;
+  font-size: 0.875rem;
+  cursor: pointer;
+  padding: 0.7rem;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.repeat-schedule-btn:hover {
+  background-color: #f0f0f0;
+}
+
+.reset-btn {
+  background: transparent;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  border: none;
+  font-weight: 700;
+}
+
+.confirm-btn {
+  background: #ff8e00;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+  box-shadow: 0px 3px #fe6137;
+}
+
+.confirm-btn:focus,
+.confirm-btn:active,
+.confirm-btn:hover {
+  box-shadow: 0px 3px #fe6137 !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.confirm-btn:hover {
+  background: #4450ee;
+}
+
+.cancel-btn {
+  background: transparent;
+  border: 1px solid #e1e5ed;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  border: none;
+}
+
+.save-btn {
+  background: #ff8e00;
+  color: white;
+  border: none;
+  padding: 0.75rem 2.5rem;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.disable-border-btn:focus,
+.disable-border-btn:active,
+.disable-border-btn:hover {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.collapse-button {
+  border: none;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem;
+  color: #6b7280;
+  background-color: #f2f2f2;
+  outline: none;
+}
+
+.number-input-vertical button {
+  all: unset;
+  color: rgb(37, 37, 37);
+  width: 2rem;
+  height: 50%;
+  text-align: center;
+  cursor: pointer;
+  font-size: 0.6rem;
+}
+

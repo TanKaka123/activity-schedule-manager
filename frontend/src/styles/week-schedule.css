@@ -1,0 +1,134 @@
+
+/* Week Schedule */
+.week-schedule {
+  background-color: #e2e6ff;
+  border-radius: var(--card-radius);
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  width: 950px;
+}
+
+.loading-state {
+  width: 950px;
+  height: 300px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.week-days {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  margin-bottom: 0.7rem;
+  margin-top: 1rem;
+  margin-left: 55px;
+}
+
+.day-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  gap: 5px
+}
+
+.day-of-week {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+.day-title-card {
+  font-size: 1rem;
+}
+
+.schedule-grid {
+  display: grid;
+  grid-template-columns: 40px repeat(5, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.time-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.time-marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 4px;
+  border-radius: 100%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05), 0 2px 2px rgba(0, 0, 0, 0.05), 0 4px 4px rgba(0, 0, 0, 0.05), 0 8px 8px rgba(0, 0, 0, 0.05), 0 8px 8px rgba(0, 0, 0, 0.05);
+}
+
+.day-schedule {
+  background-color: white;
+  border-radius: var(--card-radius);
+  padding: 1rem;
+  box-shadow: var(--shadow);
+  position: relative;
+}
+
+.status-display {
+  margin-bottom: 1rem;
+}
+
+.status-text {
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.seat-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.25rem;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  cursor: pointer;
+  border-width: 1px;
+  border-radius: 8px;
+  padding: 6px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.04), 0 3px 6px rgba(0, 0, 0, 0.05);
+}
+
+.status-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.seat-dropdown {
+  position: absolute;
+  top: 60%;
+  left: 0;
+  right: 0;
+  background: white;
+  border-radius: var(--card-radius);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  overflow: hidden;
+  border: #d1d1d1 solid;
+  border-width: 1px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.005), 0 6px 6px rgba(0, 0, 0, 0.08);
+}
+
+.seat-option {
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.seat-option:hover {
+  background-color: var(--light-bg);
+}
