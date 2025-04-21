@@ -43,7 +43,7 @@ npm run dev:backend
 ## 📬 Contact
 Have questions or feedback?
 Feel free to reach out: hongtan.dev@gmail.com
-Let me know if you want to include instructions for environment variables, deployment, or Docker!
+Let me know if you want to include instructions for environment variables, deployment, or any question.
 
 
 ## DEMO
